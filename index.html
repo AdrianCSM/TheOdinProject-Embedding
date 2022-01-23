@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <title>The Odin Project : Embedding Images and Videos</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <button class="btn menu-btn">
+          <img src="images/menu.svg" alt="menu" />
+        </button>
+        <button class="btn home-btn">
+          <img src="images/youtube.svg" alt="youtube logo" />
+          <h1>YouTube</h1>
+        </button>
+        <div class="search-bar">
+          <input class="search-input" type="text" placeholder="Search" />
+          <button class="btn search-btn">
+            <img src="images/magnify.svg" alt="magnify" />
+          </button>
+        </div>
+        <div class="user-options">
+          <button class="btn add-video-btn">
+            <img src="images/video-plus.svg" alt="add video" />
+          </button>
+          <button class="btn apps-btn">
+            <img src="images/apps.svg" alt="apps" />
+          </button>
+          <button class="btn options-btn">
+            <img src="images/dots-vertical.svg" alt="options" />
+          </button>
+          <button class="btn sign-btn">
+            <img src="images/account-circle.svg" alt="no user avatar" />
+            <span>SIGN IN</span>
+          </button>
+        </div>
+      </header>
+      <div class="content">
+        <main>
+          <section class="video-container">
+            <div class="player">
+              <iframe 
+              width="560" 
+              height="315" 
+              src="https://www.youtube.com/embed/vdrn4ouZRvQ"  
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen></iframe>
+            </div>
+            <div class="video-info">
+              <h1 class="video-title">Minecraft Caves & Cliffs Update: Part II - Official Trailer</h1>
+              <div class="video-primary-info">
+                <p class="video-views-date">6,969,417 views • Nov 30, 2021</p>
+                <div class="video-options">
+                  <div class="likes-percents">
+                    <button class="btn like-btn">
+                      <img src="images/thumb-up.svg" alt="likes" />
+                      <span>400K</span>
+                    </button>
+                    <button class="btn dislike-btn">
+                      <img src="images/thumb-down.svg" alt="dislikes" />
+                      <span>Dislike</span>
+                    </button>
+                  </div>
+                  <button class="btn share-btn">
+                    <img src="images/share.svg" alt="share" />
+                    <span>SHARE</span>
+                  </button>
+                  <button class="btn save-btn">
+                    <img src="images/playlist-plus.svg" alt="save" />
+                    <span>SAVE</span>
+                  </button>
+                  <button class="btn more-options-btn">
+                    <img src="images/dots-horizontal.svg" alt="more options" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="description">
+            <div class="channel-info">
+              <div class="channel-logo">
+                <a
+                  href="https://www.youtube.com/user/TeamMojang"
+                  target="_blank"
+                >
+                  <img
+                    src="https://yt3.ggpht.com/a/AGF-l79wp-acwbyE3Bfs0rHMetipZMpo0ancrMoW7Q=s88-c-k-c0xffffffff-no-rj-mo"
+                    alt="channel logo"
+                  />
+                </a>
+              </div>
+              <div class="channel-primary-info">
+                <div class="channel-name">
+                  <a
+                    class="channel-link"
+                    href="https://www.youtube.com/user/TeamMojang"
+                    target="_blank"
+                  >
+                    Minecraft
+                  </a>
+                  <img src="images/check-circle.svg" alt="verified" />
+                </div>
+                <div class="channel-subscribers-count">9.04M subscribers</div>
+              </div>
+              <button class="btn subscribe-btn">SUBSCRIBE</button>
+            </div>
+            <div class="video-description">
+              <p class="description">
+                Scale bigger mountains, unearth elaborate caves, and mine large ore veins in Part II of the Caves & <br />
+                Cliffs Update! Discover lush cave and dripstone cave biomes, increased world height, and updated <br />
+                terrain generation. Light up your world with candles to show what a savvy spelunker and master
+                <span class="dots"> ...</span> 
+                <span class="moreText">
+                mountaineer you are! 
+                 <br />
+                 <br />
+                 <br />
+                 
+              The Caves & Cliffs Update: Part II launches on November 30, download Minecraft: Bedrock Edition<br />
+               on Xbox Series X, Xbox Series S, Xbox One, PlayStation 5, PlayStation 4, Nintendo Switch, iOS,<br />
+                Android, and Windows 10 and 11 – and Minecraft: Java Edition on Windows, macOS, and Linux.
+                </span>
+              </p>
+              <div class="game-info">
+                <div class="card game">
+                  <img
+                    src="https://yt3.ggpht.com/JQ3UgBQhTYfo5uLxbHDtpkjdj7fN08RLxp1egw7mON8_w9Rc2pifXHQB3RboUcLiN0uI7k5qAoM=s100-w72-h100-c-k-c0x00ffffff-no-nd-rj"
+                    alt="game logo"
+                  />
+                  <div class="card-info">
+                    <span class="card-title">Minecraft</span>
+                    <span class="game-year">2009</span>
+                    <a
+                      class="card-link"
+                      href="https://www.youtube.com/channel/UCQvWX73GQygcwXOTSf_VDVg"
+                    >
+                      BROWSE GAME
+                      <img src="images/chevron-right.svg" alt="browse game" />
+                    </a>
+                  </div>
+                </div>
+                <div class="card gaming">
+                  <img
+                    src="//yt3.ggpht.com/-uI-rr20i-uc/AAAAAAAAAAI/AAAAAAAAAAA/lh8vSbbhYrc/w136-h136-nd/photo.jpg"
+                    alt="game logo"
+                  />
+                  <div class="card-info">
+                    <span class="card-title">Gaming</span>
+                    <a class="card-link" href="https://www.youtube.com/gaming">
+                      BROWSE ALL GAMING
+                      <img
+                        src="images/chevron-right.svg"
+                        alt="browse all gaming"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <button class="btn show-more-btn">SHOW MORE</button>
+            </div>
+          </section>
+        </main>
+        <aside>
+          <section class="up-next">
+            <div class="autoplay">
+              <span>Up next</span>
+              <span>AUTOPLAY</span>
+              <button class="switch"></button>
+            </div>
+            <a
+              class="thumbnail"
+              href="https://www.youtube.com/watch?v=eSxjAZL7cfs"
+              target="_blank"
+            >
+              <div class="thumbnail-img">
+                <img
+                  src="https://img.youtube.com/vi/eSxjAZL7cfs/maxresdefault.jpg"
+                  alt="recommendation video"
+                />
+                <div class="duration">
+                  <span>10:02</span>
+                </div>
+                <div class="thumbnail-img-overlay">
+                  <button class="btn">
+                    <img src="images/clock.svg" alt="watch later" />
+                  </button>
+                  <button class="btn">
+                    <img src="images/playlist-play.svg" alt="add to queue" />
+                  </button>
+                </div>
+              </div>
+              <div class="thumbnail-info">
+                <h3 class="thumbnail-title">
+                  50 Things Added in Minecraft 1.18 Caves & Cliffs Update
+                </h3>
+                <div class="thumbnail-channel-name">
+                  iDeactivateMC
+                  <img src="images/check-circle.svg" alt="verified" />
+                </div>
+                <p class="thumbnail-video-info">991K views</p>
+                <span class="thumbnail-new">New</span>
+              </div>
+              <div class="thumbnail-overlay">
+                <button class="btn">
+                  <img
+                    src="images/dots-vertical-thumb.svg"
+                    alt="thumbnail options"
+                  />
+                </button>
+              </div>
+            </a>
+          </section>
+          <section class="recommendations">
+            <a
+              class="thumbnail"
+              href="https://www.youtube.com/watch?v=_kjktyb6oig"
+              target="_blank"
+            >
+              <div class="thumbnail-img">
+                <img
+                  src="https://img.youtube.com/vi/_kjktyb6oig/maxresdefault.jpg"
+                  alt="recommendation video"
+                />
+                <div class="duration">
+                  <span>45:22</span>
+                </div>
+                <div class="thumbnail-img-overlay">
+                  <button class="btn">
+                    <img src="images/clock.svg" alt="watch later" />
+                  </button>
+                  <button class="btn">
+                    <img src="images/playlist-play.svg" alt="add to queue" />
+                  </button>
+                </div>
+              </div>
+              <div class="thumbnail-info">
+                <h3 class="thumbnail-title">
+                  I Survived 100 Days Hardcore Minecraft in the 1.18 MOUNTAINS... Here's what Happened
+                </h3>
+                <div class="thumbnail-channel-name">
+                  Sahvi
+                </div>
+                <p class="thumbnail-video-info">Recommended for you</p>
+                <span class="thumbnail-new">New</span>
+              </div>
+              <div class="thumbnail-overlay">
+                <button class="btn">
+                  <img
+                    src="images/dots-vertical-thumb.svg"
+                    alt="thumbnail options"
+                  />
+                </button>
+              </div>
+            </a>
+            <a
+              class="thumbnail"
+              href="https://www.youtube.com/watch?v=gUnHaBs4y_8"
+              target="_blank"
+            >
+              <div class="thumbnail-img">
+                <img
+                  src="https://img.youtube.com/vi/gUnHaBs4y_8/maxresdefault.jpg"
+                  alt="recommendation video"
+                />
+                <div class="duration">
+                  <span>21:17</span>
+                </div>
+                <div class="thumbnail-img-overlay">
+                  <button class="btn">
+                    <img src="images/clock.svg" alt="watch later" />
+                  </button>
+                  <button class="btn">
+                    <img src="images/playlist-play.svg" alt="add to queue" />
+                  </button>
+                </div>
+              </div>
+              <div class="thumbnail-info">
+                <h3 class="thumbnail-title">
+                  The Ultimate Minecraft 1.18 Ancient Debris/Netherite Mining Guide
+                </h3>
+                <div class="thumbnail-channel-name">
+                  Eyecraftmc
+                </div>
+                <p class="thumbnail-video-info">262k views</p>
+                <span class="thumbnail-new">New</span>
+              </div>
+              <div class="thumbnail-overlay">
+                <button class="btn">
+                  <img
+                    src="images/dots-vertical-thumb.svg"
+                    alt="thumbnail options"
+                  />
+                </button>
+              </div>
+            </a>
+            <a
+              class="thumbnail"
+              href="https://www.youtube.com/watch?v=wUkMULxlcZc"
+              target="_blank"
+            >
+              <div class="thumbnail-img">
+                <img
+                  src="https://img.youtube.com/vi/wUkMULxlcZc/maxresdefault.jpg"
+                  alt="recommendation video"
+                />
+                <div class="duration">
+                  <span>3:23</span>
+                </div>
+                <div class="thumbnail-img-overlay">
+                  <button class="btn">
+                    <img src="images/clock.svg" alt="watch later" />
+                  </button>
+                  <button class="btn">
+                    <img src="images/playlist-play.svg" alt="add to queue" />
+                  </button>
+                </div>
+              </div>
+              <div class="thumbnail-info">
+                <h3 class="thumbnail-title">
+                  Minecraft 1.18: Trailer VS Reality
+                </h3>
+                <div class="thumbnail-channel-name">
+                  Minuthu
+                  <img src="images/check-circle.svg" alt="verified" />
+                </div>
+                <p class="thumbnail-video-info">Recommended for you</p>
+                <span class="thumbnail-new">New</span>
+              </div>
+              <div class="thumbnail-overlay">
+                <button class="btn">
+                  <img
+                    src="images/dots-vertical-thumb.svg"
+                    alt="thumbnail options"
+                  />
+                </button>
+              </div>
+            </a>
+            <a
+              class="thumbnail"
+              href="https://www.youtube.com/watch?v=C-_EeHEXcnUU"
+              target="_blank"
+            >
+              <div class="thumbnail-img">
+                <img
+                  src="https://img.youtube.com/vi/C-_EeHEXcnU/maxresdefault.jpg"
+                  alt="recommendation video"
+                />
+                <div class="duration">
+                  <span>11:02</span>
+                </div>
+                <div class="thumbnail-img-overlay">
+                  <button class="btn">
+                    <img src="images/clock.svg" alt="watch later" />
+                  </button>
+                  <button class="btn">
+                    <img src="images/playlist-play.svg" alt="add to queue" />
+                  </button>
+                </div>
+              </div>
+              <div class="thumbnail-info">
+                <h3 class="thumbnail-title">
+                  30 Lesser Known Features In Minecraft 1.18 (Caves & Cliffs 2)
+                </h3>
+                <div class="thumbnail-channel-name">
+                  ibxtoycat
+                  <img src="images/check-circle.svg" alt="verified" />
+                </div>
+                <p class="thumbnail-video-info">Recommended for you</p>
+              </div>
+              <div class="thumbnail-overlay">
+                <button class="btn">
+                  <img
+                    src="images/dots-vertical-thumb.svg"
+                    alt="thumbnail options"
+                  />
+                </button>
+              </div>
+            </a>
+           
+            <a
+              class="thumbnail"
+              href="https://www.youtube.com/watch?v=Eea60GRjjxQ"
+              target="_blank"
+            >
+              <div class="thumbnail-img">
+                <img
+                  src="https://img.youtube.com/vi/Eea60GRjjxQ/maxresdefault.jpg"
+                  alt="recommendation video"
+                />
+                <div class="duration">
+                  <span>9:23</span>
+                </div>
+                <div class="thumbnail-img-overlay">
+                  <button class="btn">
+                    <img src="images/clock.svg" alt="watch later" />
+                  </button>
+                  <button class="btn">
+                    <img src="images/playlist-play.svg" alt="add to queue" />
+                  </button>
+                </div>
+              </div>
+              <div class="thumbnail-info">
+                <h3 class="thumbnail-title">
+                  The Best Way To Find Diamonds In Minecraft 1.18 [Minecraft Myth Busting 133]
+                </h3>
+                <div class="thumbnail-channel-name">
+                 xisumavoid
+                  <img src="images/check-circle.svg" alt="verified" />
+                </div>
+                <p class="thumbnail-video-info">Recommended for you</p>
+                <span class="thumbnail-new">New</span>
+              </div>
+              <div class="thumbnail-overlay">
+                <button class="btn">
+                  <img
+                    src="images/dots-vertical-thumb.svg"
+                    alt="thumbnail options"
+                  />
+                </button>
+              </div>
+            </a>
+            <a
+              class="thumbnail"
+              href="https://www.youtube.com/watch?v=YlG6gBZHPaQ"
+              target="_blank"
+            >
+              <div class="thumbnail-img">
+                <img
+                  src="https://img.youtube.com/vi/YlG6gBZHPaQ/maxresdefault.jpg"
+                  alt="recommendation video"
+                />
+                <div class="duration">
+                  <span>10:06</span>
+                </div>
+                <div class="thumbnail-img-overlay">
+                  <button class="btn">
+                    <img src="images/clock.svg" alt="watch later" />
+                  </button>
+                  <button class="btn">
+                    <img src="images/playlist-play.svg" alt="add to queue" />
+                  </button>
+                </div>
+              </div>
+              <div class="thumbnail-info">
+                <h3 class="thumbnail-title">
+                  Evolution of Minecraft 2009-2020
+                </h3>
+                <div class="thumbnail-channel-name">
+                  Andrew Louis
+                  <img src="images/check-circle.svg" alt="verified" />
+                </div>
+                <p class="thumbnail-video-info">Recommended for you</p>
+              </div>
+              <div class="thumbnail-overlay">
+                <button class="btn">
+                  <img
+                    src="images/dots-vertical-thumb.svg"
+                    alt="thumbnail options"
+                  />
+                </button>
+              </div>
+            </a>
+            <a
+              class="thumbnail"
+              href="https://www.youtube.com/watch?v=kf6ByVwDPuU"
+              target="_blank"
+            >
+              <div class="thumbnail-img">
+                <img
+                  src="https://img.youtube.com/vi/kf6ByVwDPuU/maxresdefault.jpg"
+                  alt="recommendation video"
+                />
+                <div class="duration">
+                  <span>9:07</span>
+                </div>
+                <div class="thumbnail-img-overlay">
+                  <button class="btn">
+                    <img src="images/clock.svg" alt="watch later" />
+                  </button>
+                  <button class="btn">
+                    <img src="images/playlist-play.svg" alt="add to queue" />
+                  </button>
+                </div>
+              </div>
+              <div class="thumbnail-info">
+                <h3 class="thumbnail-title">
+                  Minecraft 1.18 EPIC Lush Cave Transformation!
+                </h3>
+                <div class="thumbnail-channel-name">
+                  Jeracraft
+                </div>
+                <p class="thumbnail-video-info">Recommended for you</p>
+                <span class="thumbnail-new">New</span>
+              </div>
+              <div class="thumbnail-overlay">
+                <button class="btn">
+                  <img
+                    src="images/dots-vertical-thumb.svg"
+                    alt="thumbnail options"
+                  />
+                </button>
+              </div>
+            </a>
+          </section>
+        </aside>
+        <section class="comment-section">
+          <div class="comments-info">
+            <span class="comments-count">16,521 Comments</span>
+            <button class="btn sort-btn">
+              <img src="images/sort-variant.svg" alt="sort by" />
+              SORT BY
+            </button>
+          </div>
+          <div class="new-comment">
+            <div class="user-avatar">
+              <img
+                src="//s.ytimg.com/yts/img/avatar_720-vflYJnzBZ.png"
+                alt="user avatar"
+              />
+            </div>
+            <input
+              class="comment-input"
+              type="text"
+              placeholder="Add a public comment..."
+            />
+          </div>
+          <div class="comment">
+            <div class="user-avatar">
+              <img
+                src="https://yt3.ggpht.com/1IimlaXir1XcLWaRhcvi1OKWaczHmJFTUuJrLXZ4yvCFHCSHIOnbO8IwiaKKfqkNX0GlkjoUXA=s48-c-k-c0x00ffffff-no-rj"
+                alt="user avatar"
+              />
+            </div>
+            <div class="comment-info">
+              <div class="comment-user">
+                <span class="user-name">MARCUSK</span>
+                <span class="comment-time">1 month ago</span>
+              </div>
+              <div class="comment-text">
+                The contrast from peaceful Alex stuff to Steve fighting for his life is hilarious! 😂😂
+              </div>
+              <div class="comment-options">
+                <button class="btn cm-like-btn">
+                  <img src="images/thumb-up.svg" alt="comment like button" />
+                  <span>8K</span>
+                </button>
+                <button class="btn cm-dislike-btn">
+                  <img
+                    src="images/thumb-down.svg"
+                    alt="comment dislike button"
+                  />
+                </button>
+                <button class="btn cm-reply-btn">
+                  <span>REPLY</span>
+                </button>
+              </div>
+              <button class="btn cm-show-replies-btn">
+                <img src="images/menu-down.svg" alt="show comment replies" />
+                <span>View 106 replies</span>
+              </button>
+            </div>
+          </div>
+          <div class="comment">
+            <div class="user-avatar">
+              <img
+                src="https://yt3.ggpht.com/ytc/AKedOLTegXVXKiiyFl6VY2fK2zWDuSaV6sS19J5JYY4aAA=s48-c-k-c0x00ffffff-no-rj"
+                alt="user avatar"
+              />
+            </div>
+            <div class="comment-info">
+              <div class="comment-user">
+                <span class="user-name">
+                  Galeano34
+                </span>
+                <span class="comment-time">1 month ago</span>
+              </div>
+              <div class="comment-text">
+                Alex: "All is fine"<br />
+                <br />
+                Steve: *Spawns in australia*
+              </div>
+              <div class="comment-options">
+                <button class="btn cm-like-btn">
+                  <img src="images/thumb-up.svg" alt="comment like button" />
+                  <span>2.6k</span>
+                </button>
+                <button class="btn cm-dislike-btn">
+                  <img
+                    src="images/thumb-down.svg"
+                    alt="comment dislike button"
+                  />
+                </button>
+                <button class="btn cm-reply-btn">
+                  <span>REPLY</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="comment">
+            <div class="user-avatar">
+              <img
+                src="https://yt3.ggpht.com/ytc/AKedOLTNO8mO0sGmYCCyj6pITHx237WTWqvQ4w3KZkoNlA=s48-c-k-c0x00ffffff-no-rj"
+                alt="user avatar"
+              />
+            </div>
+            <div class="comment-info">
+              <div class="comment-user">
+                <span class="user-name">Ray Mak </span>
+                <span class="comment-time">1 month ago</span>
+              </div>
+              <div class="comment-text">
+                This is such a beautiful update. The lights, the colors, the expression and the experience
+              </div>
+              <div class="comment-options">
+                <button class="btn cm-like-btn">
+                  <img src="images/thumb-up.svg" alt="comment like button" />
+                  <span> 1.6K</span>
+                </button>
+                <button class="btn cm-dislike-btn">
+                  <img
+                    src="images/thumb-down.svg"
+                    alt="comment dislike button"
+                  />
+                </button>
+                <button class="btn cm-reply-btn">
+                  <span>REPLY</span>
+                </button>
+              </div>
+              <button class="btn cm-show-replies-btn">
+                <img src="images/menu-down.svg" alt="show comment replies" />
+                <span>View reply</span>
+              </button>
+            </div>
+          </div>
+          <div class="comment">
+            <div class="user-avatar">
+              <img
+                src="https://yt3.ggpht.com/kp2E8l_yDUgFkRmvhwq5_QUT2EM7OC1BtXvZq_GGjhbgkpA6WBdQcQZ7ChtaslNueb3KkloHGQ=s48-c-k-c0x00ffffff-no-rj"
+                alt="user avatar"
+              />
+            </div>
+            <div class="comment-info">
+              <div class="comment-user">
+                <span class="user-name">EricMKgamer</span>
+                <span class="comment-time">1 month ago</span>
+              </div>
+              <div class="comment-text">
+                I like how they are giving Steve and Alex personality, it makes them feel more like characters and not just default skins
+              </div>
+              <div class="comment-options">
+                <button class="btn cm-like-btn">
+                  <img src="images/thumb-up.svg" alt="comment like button" />
+                  <span>491</span>
+                </button>
+                <button class="btn cm-dislike-btn">
+                  <img
+                    src="images/thumb-down.svg"
+                    alt="comment dislike button"
+                  />
+                </button>
+                <button class="btn cm-reply-btn">
+                  <span>REPLY</span>
+                </button>
+              </div>
+              <button class="btn cm-show-replies-btn">
+                <img src="images/menu-down.svg" alt="show comment replies" />
+                <span>View 3 replies</span>
+              </button>
+            </div>
+          </div>
+          <div class="comment">
+            <div class="user-avatar">
+              <img
+                src="https://yt3.ggpht.com/PMaaLK-7i7nupQHVVgmCZHNhfnKIMfjV0XOz9YWf15wjg2EwZ698fQPnvGwH004ZmoQxIFhIoA=s48-c-k-c0x00ffffff-no-rj"
+                alt="user avatar"
+              />
+            </div>
+            <div class="comment-info">
+              <div class="comment-user">
+                <span class="user-name">ThatDFF </span>
+                <span class="comment-time">1 month ago</span>
+              </div>
+              <div class="comment-text">
+                Alex: enjoying a nice stroll down a luscious river stream <br />
+                Steve: literally fighting for the privilege to breathe
+              </div>
+              <div class="comment-options">
+                <button class="btn cm-like-btn">
+                  <img src="images/thumb-up.svg" alt="comment like button" />
+                  <span>1.2K</span>
+                </button>
+                <button class="btn cm-dislike-btn">
+                  <img
+                    src="images/thumb-down.svg"
+                    alt="comment dislike button"
+                  />
+                </button>
+                <button class="btn cm-reply-btn">
+                  <span>REPLY</span>
+                </button>
+              </div>
+              <button class="btn cm-show-replies-btn">
+                <img src="images/menu-down.svg" alt="show comment replies" />
+                <span>View 3 replies</span>
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
